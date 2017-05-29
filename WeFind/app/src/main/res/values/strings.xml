@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WeFind</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="upload_photo">upload photo</string>
+    <string name="user_name">Username</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="year_of_birth">Year of Birth:</string>
+    <string name="zodiac_sign">Zodiac Sign:</string>
+    <string name="gender">Gender</string>
+    <string name="like">LIKE</string>
+    <string name="no">NO</string>
+    <string name="save">SAVE</string>
+    <string name="chat">Chat</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="message_here">Message here…</string>
+    <string name="send">Send</string>
+    <string name="send_button">Send Button</string>
+    <string name="match_message">Congratulations! You are matched!</string>
+    <string name="chat_now">chat now</string>
+    <string name="chat_later">chat later</string>
+</resources>

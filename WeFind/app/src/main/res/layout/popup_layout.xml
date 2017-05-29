@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/matchedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:text="@string/match_message"
+        android:textSize="@dimen/text_large" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/matchedTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_huge"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="goToChatClicked"
+        android:text="@string/chat_now"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_vertical"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="chatLaterClicked"
+        android:text="@string/chat_later"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

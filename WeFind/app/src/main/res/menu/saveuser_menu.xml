@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:actionMenu="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/saveUser"
+        android:title="@string/save"
+        android:onClick="saveUserMenuClicked"
+        actionMenu:showAsAction="ifRoom" />
+</menu>

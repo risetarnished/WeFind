@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_vertical">16dp</dimen>
+    <dimen name="padding_large">100dp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="padding_horizontal_small">4dp</dimen>
+    <dimen name="divider_height">5dp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_large">23sp</dimen>
+    <dimen name="padding_huge">150dp</dimen>
+</resources>
